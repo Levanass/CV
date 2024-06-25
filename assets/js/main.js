@@ -143,18 +143,20 @@ i18next.use(i18nextHttpBackend).init({
   // initialized and ready to go!
   updateContent();
 });
-
-// Función para actualizar el contenido traducido
-function updateContent() {
-  document.getElementById('presentacion').innerText = i18next.t('presentacion'); 
-}
-
+	
 // Función para cambiar de idioma
 function changeLanguage(lng) {
   i18next.changeLanguage(lng, () => {
     updateContent();
   });
 }
+	
+// Función para actualizar el contenido traducido
+function updateContent() {
+  document.getElementById('presentacion').innerText = i18next.t('presentacion'); 
+}
+
+
 
 
 })(jQuery);
