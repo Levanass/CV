@@ -131,6 +131,31 @@
 					target: $body,
 					visibleClass: 'header-visible'
 				});
+// traduccion
+	// Inicializar i18next
+i18next.use(i18nextHttpBackend).init({
+  fallbackLng: 'en',
+  debug: true,
+  backend: {
+    loadPath: '/locales/{{lng}}.json' // Ruta a tus archivos de traducción
+  }
+}, function(err, t) {
+  // initialized and ready to go!
+  updateContent();
+});
+
+// Función para actualizar el contenido traducido
+function updateContent() {
+  document.getElementById('greeting').innerText = i18next.t('greeting');
+  document.getElementById('introduction').innerText = i18next.t('introduction');
+}
+
+// Función para cambiar de idioma
+function changeLanguage(lng) {
+  i18next.changeLanguage(lng, () => {
+    updateContent();
+  });
+}
 
 
 })(jQuery);
