@@ -146,7 +146,7 @@ i18next.use(i18nextHttpBackend).init({
 
 // Función para actualizar el contenido traducido
 function updateContent() {
-  document.getElementById('presentacion').innerText = i18next.t('presentacion');
+  document.getElementById('presentacion').innerText = i18next.t('presentacion'); 
 }
 
 // Función para cambiar de idioma
