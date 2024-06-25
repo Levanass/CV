@@ -19,5 +19,6 @@ function changeLanguage(lng) {
 	
 // Función para actualizar el contenido traducido
 function updateContent() {
-  document.getElementById('presentacion').innerText = i18next.t('presentacion'); 
+  document.getElementById('presentacion').innerText = i18next.t('presentacion');
+  document.getElementById('sobremi').innerText = i18next.t('sobremi');
 }
