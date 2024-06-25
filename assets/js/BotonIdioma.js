@@ -21,4 +21,5 @@ function changeLanguage(lng) {
 function updateContent() {
   document.getElementById('presentacion').innerText = i18next.t('presentacion');
   document.getElementById('sobremi').innerText = i18next.t('sobremi');
+  document.getElementById('sobremi').innerText = i18next.t('antecedentes');
 }
