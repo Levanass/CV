@@ -24,4 +24,7 @@ function updateContent() {
   document.getElementById('antecedentes').innerText = i18next.t('antecedentes');
   document.getElementById('antecedetitulo').innerText = i18next.t('antecedetitulo');
   document.getElementById('aptmenu').innerText = i18next.t('aptmenu');
+	document.getElementById('formenu').innerText = i18next.t('formenu');
+	document.getElementById('cermenu').innerText = i18next.t('cermenu');
+	document.getElementById('conmenu').innerText = i18next.t('conmenu');
 }
