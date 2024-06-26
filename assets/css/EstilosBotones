@@ -22,5 +22,5 @@ body {
 .language-buttons img {
     display: block;
     width: 50px; /* Ajusta el tamaño según sea necesario */
-    height: auto;
+    height: 70px;
 }
