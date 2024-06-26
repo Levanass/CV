@@ -23,4 +23,5 @@ function updateContent() {
   document.getElementById('sobremi').innerText = i18next.t('sobremi');
   document.getElementById('antecedentes').innerText = i18next.t('antecedentes');
   document.getElementById('antecedetitulo').innerText = i18next.t('antecedetitulo');
+  document.getElementById('top-link').innerText = i18next.t('top-link');
 }
