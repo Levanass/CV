@@ -27,4 +27,5 @@ function updateContent() {
 	document.getElementById('formenu').innerText = i18next.t('formenu');
 	document.getElementById('cermenu').innerText = i18next.t('cermenu');
 	document.getElementById('conmenu').innerText = i18next.t('conmenu');
+	document.getElementById('certificados').innerText = i18next.t('certificados');
 }
