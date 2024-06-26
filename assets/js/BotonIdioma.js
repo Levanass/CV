@@ -22,4 +22,5 @@ function updateContent() {
   document.getElementById('presentacion').innerText = i18next.t('presentacion');
   document.getElementById('sobremi').innerText = i18next.t('sobremi');
   document.getElementById('antecedentes').innerText = i18next.t('antecedentes');
+  document.getElementById('antecedetitulo').innerText = i18next.t('antecedetitulo');
 }
