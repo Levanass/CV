@@ -1,32 +1,27 @@
 body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    /* font-family: Arial, sans-serif; /* Añadir una fuente por defecto */
+    font-family: Arial, sans-serif;
 }
 
 .language-buttons {
     position: absolute;
     top: 10px;
     right: 10px;
-    display: flex;
-    gap: 10px;
 }
 
 .language-buttons button {
-    background: none;
+    margin-left: 10px;
+    padding: 10px 20px;
     border: none;
-    padding: 0;
+    background-color: #007BFF;
+    color: white;
     cursor: pointer;
+    border-radius: 5px;
 }
 
-.language-buttons img {
-    display: block;
-    width: 20px; /* Ajusta el tamaño según sea necesario */
-    height: 20px; /* Ajusta el tamaño según sea necesario */
+.language-buttons button:hover {
+    background-color: #0056b3;
 }
 
-button:focus {
-    outline: none;
-}
 
