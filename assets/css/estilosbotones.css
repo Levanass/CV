@@ -18,6 +18,8 @@ body {
     color: white;
     cursor: pointer;
     border-radius: 5px;
+    width: auto; /* Ajusta el ancho automáticamente según el contenido */
+    /*max-width: 200px; /* Por ejemplo: establece un ancho máximo */
 }
 
 .language-buttons button:hover {
