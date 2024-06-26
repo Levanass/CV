@@ -18,8 +18,9 @@ body {
     color: white;
     cursor: pointer;
     border-radius: 5px;
-    width: auto; /* Ajusta el ancho automáticamente según el contenido */
+    width: 50px; /* Ajusta el ancho automáticamente según el contenido */
     /*max-width: 200px; /* Por ejemplo: establece un ancho máximo */
+    height: 30px;
 }
 
 .language-buttons button:hover {
@@ -27,6 +28,6 @@ body {
 }
 
 .language-buttons button img {
-    max-width: 30%; /* Ajusta el ancho máximo de la imagen al 100% del ancho del botón */
+    max-width: 100%; /* Ajusta el ancho máximo de la imagen al 100% del ancho del botón */
     height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
 }
