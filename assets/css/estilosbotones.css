@@ -24,4 +24,7 @@ body {
     background-color: #0056b3;
 }
 
-
+.language-buttons button img {
+    max-width: 100%; /* Ajusta el ancho máximo de la imagen al 100% del ancho del botón */
+    height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+}
